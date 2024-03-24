@@ -1,0 +1,42 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'main/css/log.css' %}">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<!--<style>-->
+<!--    /* Скрыть контейнеры по умолчанию */-->
+<!--    #login-container, #register-container {-->
+<!--        display: none;-->
+<!--    }-->
+<!--</style>-->
+</head>
+<body>
+
+
+<button id="login-btn">Login</button>
+<button id="register-btn">Register</button>
+
+<form id="login-form" style="display:none;">
+    <!-- Форма входа -->
+    <h2>Login Form</h2>
+    <input type="text" id="username" name="username" placeholder="Username"/>
+    <input type="password" id="password" name="password" placeholder="Password"/>
+    <button type="submit">Login</button>
+</form>
+
+<form id="register-form" style="display:none;">
+    <!-- Форма регистрации -->
+    <h2>Registration Form</h2>
+    <input type="text" id="new_username" name="new_username" placeholder="New Username"/>
+    <input type="password" id="new_password" name="new_password" placeholder="New Password">
+    <button type="submit">Register</button>
+</form>
+
+
+<script src="{% static 'main/js/log_script.js' %}"></script>
+</body>
+</html>

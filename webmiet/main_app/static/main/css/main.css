@@ -1,0 +1,133 @@
+body{
+    background: #4169E1;
+    font-family: "Your Local Font", Arial, sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Font+Name');
+
+/*aside{
+    float:left;
+    background: #1E90FF;
+    width: 20%;
+    padding: 2.5%;
+    height: 100vh;
+    color: #00FFFF;
+    border-right 5px solid #4d4d4d
+}*/
+
+.menu-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 3%;
+    background-color: #4169E1;
+    z-index: 1000;
+}
+
+.menu-toggle {
+    cursor: pointer;
+    padding: 10px;
+    color: #fff;
+}
+
+.menu {
+    width: 250px;
+    height: 100%;
+    background-color: #1E90FF;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    transition: left 0.3s ease;
+}
+
+.menu.active {
+    left: 0;
+}
+
+.menu img {
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+}
+
+.menu .logo {
+    display: block;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.menu h3 {
+    color: #fff;
+    text-align: center;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu ul li {
+    padding: 10px;
+}
+
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+/*aside img{
+    width: 200px;
+    float: left;
+}
+
+aside .logo {
+    font-size: 20px;
+    margin-left: 25px
+    font-weight: bold;
+    position: relative;
+    top: -3px;
+}
+
+.menu-toggle {
+    cursor: pointer;
+    padding: 10px;
+    color: #fff;
+}
+
+aside h3 {
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+aside ul{list-style: none}
+aside ul li{
+    color: #00FFFF;
+    display: block;
+    margin-top: 15px;
+    transition: all .6s ease;
+}
+
+aside ul li:hover, aside ul a:hover{
+    color: #800000;
+    transform: scale(1.05);
+}*/
+
+.features{
+    float: left;
+    font-family: Arial, sans-serif;
+    margin-top:  100px;
+    text-align: center;
+    width: 75%;
+}
+
+.features, p {
+    font-family: Arial, sans-serif;
+    color: blue;
+    font-size: 16px;
+}
+
+
+
